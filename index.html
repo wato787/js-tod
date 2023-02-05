@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>todojs</title>
+  </head>
+  <body>
+    <div class="input_area">
+      <input id="add_text" type="text" placeholder="todo入力" />
+      <button id="add_button">追加</button>
+    </div>
+    <div class="incomplete_area">
+      <p class="title">未完了のtodo</p>
+      <ul id="incomplete_list">
+        <div class="list_row">
+          <li>todoです</li>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+        <div class="list_row">
+          <li>todoです</li>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+      </ul>
+    </div>
+    <div class="complete_area">
+      <p class="title">完了したtodo</p>
+      <ul id="complete_list">
+        <div class="list_row">
+          <li>todoでした</li>
+          <button>戻す</button>
+        </div>
+      </ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
